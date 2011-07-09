@@ -1,0 +1,64 @@
+	GenSec4 - A Traveller sector generator
+
+    Based on Marc Miller, "Traveller Sector Generator", Using Your
+	Model 2/BIS, Challenge No. 25; and other Traveller material
+	(Referee's Manual and issues of Traveller's Digest.)
+
+    The format of the output of gensec is a superset of the material
+    produced by Mr. Miller's published program, and can be formatted
+	in a number of ways.
+
+	Each output file uses the first line to identify the version of the
+	output format. This same string is used by the mapsub program to
+	interpret the data correctly.
+
+	The format line consists of the text "#Version: x.x" with the value
+	of x.x depending on which style of output was chosen.
+
+	Version numbers are as follows:
+
+	Version	Description
+	1.0	    Original Standard UPP .sec format
+	2.0	    New Standard UWP format (GEnie) .sec format
+	2.1		Heaven & Earth/Galactic .sec format
+	2.2		Heaven & Earth .hes format
+	2.3		Gensec/mapsec/subsec v2 .sec format
+	2.5		travellermap.com API output .sec format
+	3.0		TBD: Sector XML format
+
+    This program rewritten C and Unix, Aug 18 1987, by James T. Perkins.
+    (jamesp@dadla.la.tek.com, @uunet.uu.net:jamesp@dadla.la.tek.com)
+
+    Additions made Mar 17 1989 by Fred Schiff
+    (vu0141@bingvaxu.cc.binghamton.edu) to conform with Basic generation
+    in MegaTraveller Referee's Manual.
+
+	This program rewritten in C++, April 2009, by Chris Moynihan.
+	(forthekill@gmail.com, forthekill.com)
+	Additions were made to allow for multiple output formats, the
+	ability to use a file with names and hexes to include pre-determined
+	worlds was added, and to set density of 'zero'.
+
+Copyright 1989 James T. Perkins
+
+	This notice and any statement of authorship must be reproduced on all
+	copies.  The author does not make any warranty expressed or implied,
+	or assumes any liability or responsiblity for the use of this software.
+
+	Any distributor of copies of this software shall grant the recipient
+	permission for further redistribution as permitted by this notice. Any
+	distributor must distribute this software without any fee or other
+	monetary gains, unless expressed written permission is granted by the
+	author.
+
+	This software or its use shall not be: sold, rented, leased, traded, or
+	otherwise marketed without the expressed written permission of the author.
+
+	If the software is modified in a manner creating derivative	copyrights,
+	appropriate legends may be placed on derivative work in addition to that
+	set forth above.
+
+	Permission is hereby granted to copy, reproduce, redistribute or
+	otherwise use this software as long as the conditions above	are met.
+
+	All rights not granted by this notice are reserved.
