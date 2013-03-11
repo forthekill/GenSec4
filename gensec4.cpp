@@ -20,11 +20,11 @@
 	Version	Description
 	1.0	    Original Standard UPP .sec format
 	2.0	    New Standard UWP format (GEnie) .sec format
-	2.1		Heaven & Earth/Galactic .sec format
-	2.2		Heaven & Earth .hes format
-	2.3		Gensec/mapsec/subsec v2 .sec format
-	2.5		travellermap.com API output .sec format
-	3.0		TBD: Sector XML format
+	2.1	    Heaven & Earth/Galactic .sec format
+	2.2	    Heaven & Earth .hes format
+	2.3	    Gensec/mapsec/subsec v2 .sec format
+	2.5	    travellermap.com API output .sec format
+	3.0	    TBD: Sector XML format
 
     This program rewritten C and Unix, Aug 18 1987, by James T. Perkins.
     (jamesp@dadla.la.tek.com, @uunet.uu.net:jamesp@dadla.la.tek.com)
